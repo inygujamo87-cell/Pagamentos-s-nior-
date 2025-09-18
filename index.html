@@ -1,0 +1,55 @@
+<section class="pricing">
+  <h2>Planos e Preços</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Básico</h3>
+      <p class="price">200 MZN</p>
+      <ul>
+        <li>Até 5 páginas</li>
+        <li>1 revisão</li>
+        <li>Entrega: 7 dias úteis</li>
+      </ul>
+      <a href="https://wa.me/258856562554?text=Olá%2C+tenho+interesse+no+plano+Básico" target="_blank">
+        <button>Solicitar</button>
+      </a>
+    </div>
+
+    <div class="card featured">
+      <h3>Padrão</h3>
+      <p class="price">400 MZN</p>
+      <ul>
+        <li>Blog / Portfólio</li>
+        <li>3 revisões</li>
+        <li>Entrega: 10–14 dias</li>
+      </ul>
+      <a href="https://wa.me/258856562554?text=Olá%2C+tenho+interesse+no+plano+Padrão" target="_blank">
+        <button>Solicitar</button>
+      </a>
+    </div>
+
+    <div class="card">
+      <h3>Profissional</h3>
+      <p class="price">500 MZN</p>
+      <ul>
+        <li>Multi-páginas</li>
+        <li>SEO básico</li>
+        <li>Entrega: 15–21 dias</li>
+      </ul>
+      <a href="https://wa.me/258856562554?text=Olá%2C+tenho+interesse+no+plano+Profissional" target="_blank">
+        <button>Solicitar</button>
+      </a>
+    </div>
+  </div>
+  <p class="note">Preços sem impostos. Manutenção mensal disponível.</p>
+</section>
+
+<style>
+.pricing{font-family:system-ui,Arial;margin:2rem;}
+.cards{display:flex;gap:1rem;flex-wrap:wrap;}
+.card{flex:1;min-width:220px;padding:1rem;border-radius:8px;border:1px solid #e6e6e6;box-shadow:0 4px 12px rgba(0,0,0,0.03);}
+.featured{transform:translateY(-6px);box-shadow:0 8px 24px rgba(0,0,0,0.06);}
+.price{font-size:1.25rem;font-weight:700;margin:0.5rem 0;}
+button{padding:0.6rem 1rem;border:0;border-radius:6px;cursor:pointer;background:#111;color:#fff;}
+.note{font-size:0.9rem;color:#666;margin-top:0.8rem;}
+@media(max-width:720px){.cards{flex-direction:column}}
+      </style>
